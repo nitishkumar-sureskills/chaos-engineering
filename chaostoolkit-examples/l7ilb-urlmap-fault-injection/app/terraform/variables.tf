@@ -45,14 +45,12 @@ variable "compute_ip_address" {
 variable "region" {
   type        = string
   description = "The region in which to deploy the resources"
-  default     = "us-central1"
 }
 
 variable "zone" {
 
   type        = string
   description = "The zone in which to deploy the VM"
-  default     = "us-central1-a"
 }
 
 variable "url_map_target_name" {
